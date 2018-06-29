@@ -1,0 +1,28 @@
+{
+    "name": "schumacherfm/mage2-mocks",
+    "description": " This Magento2 module provides mock classes when you have physically removed unneeded modules with dependencies.",
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "Mocks/registration.php"
+        ],
+        "psr-4": {
+            "SchumacherFM\\Mocks\\": "Mocks/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cyrill Schumacher",
+            "homepage": "http://cyrillschumacher.com/",
+            "role": "Developer"
+        }
+    ]
+}
