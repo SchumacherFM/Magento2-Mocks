@@ -3,6 +3,8 @@
 namespace Magento\Bundle\Model\Product;
 
 /**
+ * Needed for M2 < 2.2.5
+ *
  * Class PriceFactory
  * @package Magento\Bundle\Model\Product
  */

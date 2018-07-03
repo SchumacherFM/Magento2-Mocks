@@ -6,7 +6,7 @@ unneeded modules with dependencies.
 
 Magento2-Mocks does not work out of the box. You must adjust your root composer.json file.
 
-For a full How-to, please read my blog post: [https://cyrillschumacher.com](https://cyrillschumacher.com)
+For a full How-to, please read my blog post: [https://cyrillschumacher.com/projects/2018-07-01-magento2-mocks/](https://cyrillschumacher.com/projects/2018-07-01-magento2-mocks/)
 
 *Warning:* If you install this module, it automatically assumes that you 
 want to remove `Magento\Msrp` module. See files `Mocks/etc/di.xml` and `Mocks/Setup/InstallData.php`.
@@ -16,7 +16,7 @@ Installation via Composer
 
 Add the following to the require section of your Magento 2 `composer.json` file
 
-    "schumacherfm/mage2-mocks": "0.0.1"
+    "schumacherfm/mage2-mocks": "X.Y.Z"
 
 additionally add the following in the repository section
 
