@@ -12,8 +12,16 @@ namespace Magento\Bundle\Model\ResourceModel;
  * @api
  * @since 100.0.2
  */
-class Selection extends \Magento\Framework\DataObject
+class Selection extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
+    /**
+     * Resource initialization
+     *
+     * @return void
+     */
+    protected function _construct()
+    {
+    }
 
     /**
      * Retrieve Required children ids
